@@ -1,11 +1,10 @@
 <?php
-	error_reporting(-1);
-	$file = '/srv/games/tf2/orangebox/tf/cfg/server.cfg';
+	require 'settings/server_settings.php';
 	
 	if (isset($_POST['submit'])) {
-		file_put_contents($file, $_POST['content']);
+		file_put_contents($config_location, $_POST['content']);
 	}
-	$current = file_get_contents($file);
+	$current = file_get_contents($config_location);
 ?>
 <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
 	<textarea rows="25" cols="100" name="content"><?php echo $current; ?></textarea>

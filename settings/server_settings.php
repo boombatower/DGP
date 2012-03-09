@@ -5,5 +5,6 @@
 	$map = 'ctf_well'; 
 	$maxplayers = '32'; 
 	$server_config = 'server.cfg'; 
+	$config_location = $srcds_location.'/tf/cfg/'.$server_config;
 	$add_commands = '-autoupdate';
 ?>

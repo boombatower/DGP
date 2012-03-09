@@ -1,1 +1,7 @@
-lol Readme's...
+lol Readme's... No seriously... Who reads these things?
+
+This is a REALLY (and I mean really) basic source server control panel.
+The basic goal behind this project is to have an open source model for creating/destroying game servers with the use of a web interface.
+There are no security checks currently in place as I plan on integrating with Drupal later down the road - or if anyone forks it - maybe into a CakePHP platform.
+However, at this time, I’m just getting the basic idea established and building the core first.
+Let me know at longshot902@gmail.com if you have any questions.
