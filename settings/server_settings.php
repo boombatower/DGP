@@ -4,7 +4,7 @@
 	$game = 'tf';
 	$map = 'ctf_well'; 
 	$maxplayers = '32'; 
-	$server_config = 'server.cfg'; 
+	$server_config = 'ugc_6v_ctf.cfg'; 
 	$config_location = $srcds_location.'/tf/cfg/'.$server_config;
 	$add_commands = '-autoupdate';
 	$log = 'update.log';

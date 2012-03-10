@@ -6,8 +6,8 @@
 </head>
 <body>
 <?php
-	include_once 'functions/server_functions.php';
-	include_once 'settings/server_settings.php';
+	require 'functions/server_functions.php';
+	require 'settings/server_settings.php';
 	
 	$status = stop_server($screen_name);
 	echo $status;

@@ -16,7 +16,9 @@ function restart_server($screen_name, $srcds_location, $game, $map, $maxplayers,
 	return $run2;
 }
 function update_server($game) {
-	$script = '/srv/games/steam -command update -game '.$game.' -dir "/srv/games/tf2" 2>&1 | tee update.log &';
+	$script = '/srv/games/steam -command update -game '.$game.' -dir "/srv/games/tf2" > update.log &';
+	//$script = '/srv/games/steam -command update -game '.$game.' -dir "/srv/games/tf2" | tee update.log &';
+	//$script = '/srv/games/steam -command update -game '.$game.' -dir "/srv/games/tf2" 2>&1 | tee update.log &';
 	//$script = '/srv/games/steam -command update -game '.$game.' -dir "/srv/games/tf2"';
 	$run = server_exec($script);
 	return return_process_status($run);

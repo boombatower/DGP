@@ -6,8 +6,9 @@
 </head>
 <body>
 <?php
-	include_once 'functions/server_functions.php';
-	include_once 'settings/server_settings.php';
+	header("Refresh: 3;");
+	require 'functions/server_functions.php';
+	require 'settings/server_settings.php';
 ?>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 		<input type="submit" name="submit" value="Update Now" />
@@ -16,7 +17,7 @@
 				$status = update_server($game);
 				echo '<br />'.$status;
 			} else {
-				echo '<br />'.file_get_contents($log); 
+				echo '<br /><br />Log:<hr><pre>'.file_get_contents($log).'</pre>'; 
 			}
 		?>
 	</form>

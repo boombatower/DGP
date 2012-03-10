@@ -2,23 +2,4 @@ Checking bootstrapper version ...
 Updating Installation
 Checking/Installing 'Team Fortress 2 Content' version 318
 
-
-Checking/Installing 'Team Fortress 2 Materials' version 169
-
-
-Checking/Installing 'Base Source Shared Materials' version 8
-
-
-Checking/Installing 'Base Source Shared Models' version 4
-
-
-Checking/Installing 'Base Source Shared Sounds' version 4
-
-
-Checking/Installing 'OB Linux Dedicated Server' version 150
-
-
-HLDS installation up to date
-CAsyncIOManager: 0 threads terminating.  0 reads, 0 writes, 0 deferrals.
-CAsyncIOManager: 118 single object sleeps, 0 multi object sleeps
-CAsyncIOManager: 0 single object alertable sleeps, 0 multi object alertable sleeps
+Failed to set file attributes
