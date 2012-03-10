@@ -14,6 +14,7 @@ TF2 Control Panel<br />
 <input type="button" value="Restart Server" onclick="window.location.href='restartserver.php'" />
 |
 <input type="button" value="Edit Server Config" onclick="window.location.href='editserver.php'" />
+<input type="button" value="Update Server" onclick="window.location.href='updateserver.php'" />
 <br />
 <hr />
 <p>Sever Status: </p>
