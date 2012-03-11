@@ -14,7 +14,7 @@
 		<input type="submit" name="submit" value="Update Now" />
 		<?php 
 			if (isset($_POST['submit'])) {
-				$status = update_server($game);
+				$status = update_server($game, $log);
 				echo '<br />'.$status;
 			} else {
 				if (file_exists($log) {
