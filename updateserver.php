@@ -17,7 +17,9 @@
 				$status = update_server($game);
 				echo '<br />'.$status;
 			} else {
-				echo '<br /><br />Log:<hr><pre>'.file_get_contents($log).'</pre>'; 
+				if (file_exists($log) {
+					echo '<br /><br />Log:<hr><pre>'.file_get_contents($log).'</pre>';
+				}
 			}
 		?>
 	</form>
